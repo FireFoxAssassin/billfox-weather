@@ -1,0 +1,31 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+  -webkit-app-region: no-drag;
+  min-width: 73px;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  z-index: 100px;
+}
+.button {
+  padding: 4px 12px;
+  cursor: pointer;
+}
+.close :hover {
+    background: #e41414dc;
+}
+.buttons :hover {
+    background: #b5d7e2;
+}
+
+.topbar {
+  height: 25px;
+  width: 100%;
+  -webkit-app-region: drag;
+  background: #8aacb8;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+}

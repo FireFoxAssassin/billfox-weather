@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
+
+body {
+    background: #ADD8E6;
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+
+.bigText {
+   text-align: center;
+   font-size: 2em;
+}
+
+.mediumText {
+  font-size: 1.5em;
+}
+
+#searchBox {
+    text-align: center;
+    text-align: center;
+}
+
+#weatherBox {
+  background: #8aacb8;
+  position: absolute;
+  width: 80%;
+  height: 50%;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+#weatherHeading {
+  transition: all ease-in-out 300ms;
+}
