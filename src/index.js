@@ -31,7 +31,7 @@ function searchCity () {
             weatherAlternative.innerHTML = "";
             return;
         }
-        
+
         let location = result[0].location;
         let current = result[0].current;
 
@@ -60,6 +60,11 @@ function zoom() {
    }
 }
 
-function close() {
+function exit() {
     BrowserWindow.close()
 }
+
+
+
+
+
