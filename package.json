@@ -6,6 +6,9 @@
   "scripts": {
     "start": "electron ."
   },
+   "dependencies": {
+    "weather-js": "^2.0.0",
+  }
   "devDependencies": {
     "electron": "^5.0.3",
     "electron-reload": "^1.4.0"
@@ -13,8 +16,4 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "weather-js": "^2.0.0",
-    "weather.js": "^0.1.0"
-  }
 }
